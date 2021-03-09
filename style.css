@@ -1,0 +1,35 @@
+body{
+  width:70%;
+  margin:auto;
+  text-align:center;
+  background-color:Cornsilk;
+ }
+h1{
+  font-family: 'Diplomata';
+}
+h2{
+  font-family: 'Diplomata';
+}    
+#aboutdesc{
+  background-color:white;
+  padding:10px;
+  text-align:justify;
+ }
+#contact{
+   teboldalign:right;
+ }
+#abouthead{
+ background-color:FFEBCD;
+ font-family: 'Diplomata';
+ }
+#img{
+ border:2px solid #555;
+ } 
+#mainmenu{
+ text-align:right;
+ background-color:Orange;
+ margine-top:20px;
+ padding:7px;
+ color:white;
+ font-weight:bold;
+ }
