@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tickets</title>
+</head>
+<body>
+ <form action="success.html">
+
+<u>
+<h1>ONLINE TAJ MAHAL ENTRANCE TICKETS</h1>
+</u>
+<u>
+<p> Entry Timing 6AM - 7PM Only</p>
+</u>
+<form>
+ Name:<input type="text" id="fname" name="fname" required/><br><br>
+ Gender:
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+ Date of birth:<input type="date"/><br><br>
+ Mobile No:<input type="number"required/><br><br>
+ Email:<input type="email"/><br><br>
+ 
+ <select>
+    <option value="Indian Adult">Indian Adult</option>
+    <option value="Indian child">Indian child</option>
+    <option value="Foreign Adult">Foreign Adulth</option>
+    <option value="Foreign child">Foreign child</option>
+  </select><br><br>
+ Languages Known:<br>
+ Engish<input type="checkbox" value="Eng">
+ Hindi<input type="checkbox" value="Hin"><br><br>
+ Ticket Type:
+ <input type=text list="ticket type"required/>
+  <datalist id="ticket type">
+    <option value="Indian- 45 + 200/-">
+    <option value="SAARC&BIMTEC- 535 + 200/-">
+    <option value="Foreigners-1050+ 200/-">
+  </datalist><br><br>
+ <input type="submit" value="Register"/>
